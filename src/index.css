@@ -1,0 +1,159 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #f9f9fc;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Navbar Style Start */
+.shared-nav{
+  background-color: #c7c8d2;
+}
+
+.nav-bg{
+  background: #313244;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.nav-flex {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+}
+
+.nav-img {
+  width: 70px;
+  height: 70px;
+  margin-right: 15px;
+}
+
+.LinkText {
+  color: aqua;
+}
+
+/* Navbar Style  END */
+
+
+/* Home Style Start */
+.banner-btn {
+  font-size: 1.0rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  background: #1F2044;
+  color: rgb(255, 255, 255);
+  opacity: 1;
+  transition: all 0.3s ease-in-out;
+  line-height: 2.0rem;
+  letter-spacing: 0.75px;
+  padding: 0.5rem 1.5rem;
+  text-decoration: none;
+}
+
+.contain {
+  max-width: 100%;
+}
+
+.container-sl{
+  max-width: 720px;
+}
+
+.testHome{
+  background: rgb(108, 105, 105);
+
+}
+
+.text-pading {
+  padding: 70px;
+  margin-top: 20px;
+  margin-left: 20px;
+  color: aqua;
+}
+
+.bt-padding{
+  padding-top: 30px;
+}
+
+.slider-area {
+  max-width: 100%;
+  padding: 7rem 0;
+  position: relative;
+  background: transparent;
+  padding-top: 5rem;
+}
+
+.slider-content {
+  text-align: left;
+}
+
+.animated-title {
+  position: relative;
+}
+
+/* Home Style END */
+
+/* About Me Style Start */
+ .about-contain-padding {
+  margin-top: 5%;
+ }
+
+.about-img{
+  margin-bottom: 5%;
+ }
+
+ .justify-content-end {
+  justify-content: flex-end;
+}
+
+/* About Me Style END */
+
+/* Experien Style Start */
+.experience-area{
+  padding: 3rem;
+  background: #FFFFFF;
+}
+
+.tab-item{
+  padding: 3rem;
+  background: #FFFFFF;
+}
+
+.ex {
+  padding: 3rem;
+  background: #FFFFFF;
+}
+
+ .section-spacing {
+  padding: 6rem 0;
+}
+
+.section-inner-content {
+  padding-bottom: 5rem;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+/* Experien Style END */
+
+
+
+
